@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // Методы строки
+
+    // let link = "https://www.google.com/";
+
+    //     let l = link.length; // 23 длина строки
+    //     console.log(l);
+
+    // let pos = link.indexOf("www"); // 8 позиция символа (подстроки) в строке
+    // console.log(pos);
+
+    //  let goo = link.substring(12,18); // google копирует подстроку в строке
+    //  console.log(goo);   
+
+    //  let pos = link.indexOf("://"); 
+    //  console.log(pos);
+
+    //  let domain = link.substring(pos+3,l-1);
+    //  console.log(domain);
+
+     let to = ["https://www.google.com/", "https://yandex.by/","https://mail.ru/","https://www.youtube.com/","https://facebook.com/","https://www.instagram.com/"];
+
+     let to1 = [], domain = "";
+
+     for (i=0; i<to.length; i++) {
+
+        domain = to[i].substring(to[i].indexOf("://")+3, to[i].length-1);
+
+        to1[i] = domain;
+     }
+
+     console.log(to);
+     console.log(to1);
+
+    </script>
+
+</body>
+</html>

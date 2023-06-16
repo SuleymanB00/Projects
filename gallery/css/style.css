@@ -1,0 +1,27 @@
+body {
+    width: 1000px;
+    margin: 50px auto;
+    /* border: 1px solid blue; */
+}
+
+div img {
+    width: 300px;
+}
+
+#pictureHere {
+    display: flex;
+    justify-content: space-around;
+}
+
+section > img {
+    width: 1000px;
+}
+
+section > p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+img {
+    cursor: pointer;
+}

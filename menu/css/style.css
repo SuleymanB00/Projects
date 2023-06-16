@@ -1,0 +1,13 @@
+ul {
+    margin-top: 35px;
+    list-style: none;
+    display: flex;
+}
+
+a {
+    padding: 16px;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 15px;
+    transition: .3s;
+}
